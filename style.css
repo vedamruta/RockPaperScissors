@@ -33,7 +33,7 @@ font-family: 'Josefin Sans', sans-serif; */
 }
 .box {
     width: 50%;
-    min-height: 95vh;
+    min-height: 100vh;
     /* height: 1%; */
 }
 
@@ -135,6 +135,11 @@ i {
     top: 45%;
     left: 42%;
     padding: 3em;
+}
+
+footer {
+    text-align: center;
+    /* margin-bottom: 0; */
 }
 
 /* @media screen and ((min-width: 550px) and (max-width: 991px)) */
