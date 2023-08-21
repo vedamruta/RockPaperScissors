@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Josefin+Sans&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bd4d4ead53.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>ROCK PAPER SCISSORS</h1></header>
+    <section class="home">
+        <div class="container">
+            <div class="computer-side box">
+                <h2>Computer</h2>
+                <div class="computer-input-box input-box">
+                    <div class="computer-input input"><i class="fa-solid fa-hand-back-fist fa-2xl" data-input="computer"></i></div>
+                    <h3 id="computer-text">Rock</h3>
+                </div>
+            </div>
+            <div class="user-side box">
+                <h2 id="you">You</h2>
+                <div class="user-input-box input-box">
+                    <div class="user-input input"><i class="fa-solid fa-hand-scissors fa-2xl" data-input="user"></i></div>
+                    <h3 id="user-text">Scissors</h3>
+                    <div class="input-options">
+                        <i class="fa-solid fa-hand-back-fist fa-2xl" data-input="input_icons" data-item="rock"></i><i class="fa-solid fa-hand fa-2xl" data-input="input_icons" data-item="paper"></i><i class="fa-solid fa-hand-scissors fa-2xl" data-input="input_icons" data-item="scissors"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal"><h1 id="result">Computer Wins</h1></div>
+    </section>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
