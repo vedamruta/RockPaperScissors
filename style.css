@@ -33,13 +33,13 @@ font-family: 'Josefin Sans', sans-serif; */
 }
 .box {
     width: 50%;
-    min-height: 100vh;
+    min-height: 97vh;
     /* height: 1%; */
 }
 
 h2 {
     text-align: center;
-    margin: 2em auto;
+    margin: 3em auto;
 }
 
 .computer-side {
@@ -48,10 +48,10 @@ h2 {
 
 .input-box {
     width: 500px;
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
     /* background-color: blueviolet; */
-    /* border: 2px dotted blueviolet; */
+    border: 2px dotted blueviolet;
 }
 
 .input-box i {
@@ -129,16 +129,38 @@ i {
     align-items: center;
     /* background-color: blueviolet; */
     /* background: linear-gradient(60deg, grey, aliceblue); */
-    background: linear-gradient(60deg, rgb(33, 78, 3), rgb(33, 240, 29));
+    /* background: linear-gradient(60deg, rgb(33, 78, 3), rgb(33, 240, 29));
     border: 2px double black;
-    border-radius: 10px;
-    top: 45%;
-    left: 42%;
+    border-radius: 10px; */
+    background: linear-gradient(60deg, rgb(242, 210, 215), rgb(214, 205, 209));
+    border: 10px solid red;
+    top: 38%;
+    left: 41.5%;
     padding: 3em;
 }
 
-footer {
+#result {
     text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#new-game {
+    background: linear-gradient(60deg, rgb(33, 78, 3), rgb(33, 240, 29));
+    border: 2px double black;
+    border-radius: 10px;
+    margin: 1em 1.5em;
+    padding: 1em 1.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    /* position: fixed; */
+    text-align: center;
+    padding-top: 5px;
     /* margin-bottom: 0; */
 }
 
@@ -171,9 +193,9 @@ footer {
         text-align: center;
     }
 
-    .modal {
-        /* display: none; */
-    }
+    /* .modal {
+        display: none;
+    } */
 
     .input {
         padding: 0;
