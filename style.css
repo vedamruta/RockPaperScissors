@@ -46,22 +46,20 @@ h2 {
     background-color: yellow;
 }
 
+.user-side {
+    background-color: crimson;
+}
+
 .input-box {
     width: 500px;
     height: 400px;
     margin: 0 auto;
-    /* background-color: blueviolet; */
-    border: 2px dotted blueviolet;
+    /* border: 2px dotted blueviolet; */
 }
 
 .input-box i {
     box-shadow: 0 1px 16px hsla(210, 56%, 13%, 0.4);
 }
-
-/* i {
-    width: 1em;
-    height: 1em;
-} */
 
 .input {
     padding: 10vh;
@@ -69,29 +67,14 @@ h2 {
 }
 
 .input i{
-    /* min-width: 100px; */
-    /* width: 100%; */
-    /* min-height: 100px; */
-    /* height: 100%; */
-    /* width: 60px;
-    height: 60px;
-    padding: 1.3em 1em; */
-
-    /* width: 50px;
-    height: 50px; */
-    /* padding: 2.5em 2.2em; */
     padding: 1.4em 1em;
     border-radius: 50%;
-
     background-color: aliceblue;
-
 }
 
 .input-options {
-    /* width: 300px; */
     height: 100px;
     background-color: pink;
-    /* border: 2px solid ; */
     box-shadow: 5px 20px rgba(76, 30, 39, 0.4);
     display: flex;
     flex-direction: row;
@@ -105,11 +88,7 @@ i {
     cursor: pointer;
 }
 
-
-
 .input-options i:hover {
-    /* box-shadow: inset 10px 20px 10px 10px; */
-    /* box-shadow: 0 1px 16px hsla(210, 55%, 24%, .1); */
     box-shadow: 0 1px 16px crimson;
     padding: 1em;
     background-color: rgba(220, 20, 60, 0.4);
@@ -121,22 +100,18 @@ i {
 }
 
 .modal {
-    /* width: 100px;
-    height: 100px; */
     position: fixed;
-    /* display: flex; */
+    margin: 42vh 40vw;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: blueviolet; */
-    /* background: linear-gradient(60deg, grey, aliceblue); */
-    /* background: linear-gradient(60deg, rgb(33, 78, 3), rgb(33, 240, 29));
-    border: 2px double black;
-    border-radius: 10px; */
-    background: linear-gradient(60deg, rgb(242, 210, 215), rgb(214, 205, 209));
-    border: 10px solid red;
-    top: 38%;
-    left: 41.5%;
-    padding: 3em;
+    top: 0%;
+    left: 0%;
+    background-color: #fff;
+    border: 10px solid rgb(49, 48, 48);
 }
 
 #result {
@@ -158,17 +133,15 @@ i {
 }
 
 footer {
-    /* position: fixed; */
     text-align: center;
     padding-top: 5px;
-    /* margin-bottom: 0; */
 }
 
 /* @media screen and ((min-width: 550px) and (max-width: 991px)) */
 
 @media screen and (max-width: 991px) {
     .home {
-        height: 95vh;
+        height: 85vh;
     }
 
     .container {
@@ -178,8 +151,6 @@ footer {
     .box {
         width: 100%;
         min-height: 50%;
-        margin: 10px auto;
-        padding: 20px auto;
     }
     
     .input-box {
@@ -192,10 +163,6 @@ footer {
         margin: 1em auto;
         text-align: center;
     }
-
-    /* .modal {
-        display: none;
-    } */
 
     .input {
         padding: 0;
@@ -210,18 +177,36 @@ footer {
     }
     
     .computer-side {
-        /* margin-bottom: 2em; */
-        /* height: 52%; */
         padding-bottom: 1em;
     }
 
     .user-side {
-        padding-top: 1em;
+        padding-top: 3em;
     }
 
     .modal {
-        padding: 1em;
-        top: 40%;
-        left: 32%;
+        width: 100%;
+        height: 18%;
+        margin-top: 31vh;
+        margin-left: 0;
+    }
+
+    .input-options {
+        height: 80px;
+        gap: 2em;
+        padding-bottom: 2px;
+    }
+    .input i{
+        padding: 1em 0.5em;
+        border-radius: 50%;
+        background-color: aliceblue;
+    }
+
+    .input-options i:hover {
+        padding: 0.8em;
+    }
+
+    footer {
+        padding-top: 1px;
     }
 }
